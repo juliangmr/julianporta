@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.bordeup{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.bordeup button{
+    margin-right: 15px;
+    border-radius: 35px;
+    height: 25px;
+    width: 145px;
+    color: beige;
+    font-family:Arial, Helvetica, sans-serif;
+    background: none; 
+
+}
+.paginap{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(95,80,236);
+    background: linear-gradient(90deg, rgba(95,80,236,1) 25%, rgba(200,102,214,1) 91%);
+}
+.bordeup{
+    height: 50px;
+    background: rgb(211,17,203);
+    background: linear-gradient(90deg, rgba(211,17,203,1) 26%, rgba(112,19,192,1) 91%);
+}
+.perfilfoto{
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.perfilfoto h2{
+    margin-top: 150px;
+    font-size: 40px;
+}
+.perfilfoto p{
+    margin-top: 20px;
+}
+
+
+.pagina2{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(95,80,236);
+    background: linear-gradient(90deg, rgba(95,80,236,1) 25%, rgba(200,102,214,1) 91%);
+
+}
+.pagina2 h2{
+    text-align: center;
+    font-size: 40px;
+}
